@@ -1,0 +1,1 @@
+* It's very important that you make the area manager script execution order before the default time so that it establishes it's singleton reference before the other scripts need it.

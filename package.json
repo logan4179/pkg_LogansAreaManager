@@ -1,0 +1,17 @@
+{
+  "name": "com.loganland.logansareamanagementsystem",
+  "version": "1.0.0",
+  "displayName": "Logans Area Management System",
+  "description": "Manages activation/deativation of areas and entities within areas based on proximity.",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [
+    "Area Management"
+  ],
+  "author": {
+    "name": "Logan Jarrett",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  }
+}
