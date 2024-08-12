@@ -9,19 +9,21 @@ namespace LogansAreaManagementSystem
 
     }
 
+    /// <summary>
+    /// Base interface for entities (enemies and npcs) that are part of the LogansAreaManagementSystem.  Implementing this interface 
+    /// allows LAMS to correctly activate/deactivate entities based on 
+    /// </summary>
     public interface I_LAMS_Entity
     {
         /// <summary>
-        /// This method allows you to call any logic needed for when an entity becomes activated via an area. This is useful for 
-        /// things like adding an entity to a manager's list of active entities once it's activated, for example. You can just  
-        /// leave this method blank if nothing like this is needed, and it won't hurt the functioning of this system.
+        /// This method allows you to call any logic needed for when an entity becomes activated via an area. This is where you 
+        /// can do your logic for how an enemy or npc gets activated when the player enters their room or an adjacent room.
         /// </summary>
         void ActivateMeViaArea();
 
 		/// <summary>
-		/// This method allows you to call any logic needed for when an entity becomes deactivated via an area. This is useful for 
-		/// things like removing an entity from a manager's list of active entities once it's area is deactivated, for example. You 
-        /// can just leave this method blank if nothing like this is needed, and it won't hurt the functioning of this system.
+		/// This method allows you to call any logic needed for when an entity becomes deactivated via an area. This is where you 
+		/// can do your logic for how an enemy or npc gets deactivated when the player leaves their room or an adjacent room.
 		/// </summary>
 		void DeactivateMeViaArea();
 

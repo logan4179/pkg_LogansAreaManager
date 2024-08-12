@@ -62,6 +62,10 @@ namespace LogansAreaManagementSystem
 			AllAreas.Add( area_passed );
 		}
 
+		/// <summary>
+		/// Call this method when the player enters a new LAMS_Area.
+		/// </summary>
+		/// <param name="area_passed"></param>
 		public void ChangeActiveArea( LAMS_Area area_passed )
 		{
 			print($"mgr.{nameof(ChangeActiveArea)}('{area_passed.name}'). currently active arreas: '{Areas_currentlyActive.Count}'");
