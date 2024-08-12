@@ -16,8 +16,8 @@ namespace LogansAreaManagementSystem
 		/// <summary>The areas that are currently active in the scene.</summary>
 		private List<LAMS_Area> Areas_currentlyActive = new List<LAMS_Area>();
 
-		[SerializeField, Tooltip("If true, this performs all initialization on Awake() and Start() using this manager's singleton reference")] 
-		public bool AutoInitialize = true;
+		[SerializeField, Tooltip("If true, this causes all areas in scene to automatically performs their initialization on Awake() and Start() using this manager's singleton reference")] 
+		public bool AutoInitializeAreas = true;
 
 		private void Awake()
 		{

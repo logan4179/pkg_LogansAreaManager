@@ -26,7 +26,7 @@ namespace LogansAreaManagementSystem
 		private void Awake()
 		{
 			//print($"area start. singleton null: '{LAMS_Manager.Instance == null}'");
-			if( LAMS_Manager.Instance != null && LAMS_Manager.Instance.AutoInitialize )
+			if( LAMS_Manager.Instance != null && LAMS_Manager.Instance.AutoInitializeAreas )
 			{
 				LAMS_Manager.Instance.RegsiterArea( this );
 				RegisterManager( LAMS_Manager.Instance );
