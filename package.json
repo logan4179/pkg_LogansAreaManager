@@ -1,6 +1,6 @@
 {
   "name": "com.loganland.logansareamanagementsystem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Logans Area Management System",
   "description": "Manages activation/deativation of areas and entities within areas based on proximity.",
   "documentationUrl": "https://example.com/",
