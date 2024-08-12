@@ -21,7 +21,6 @@ namespace LogansAreaManagementSystem
 
 		[Header("---------------[[ DEBUG ]]-----------------")]
 		public bool AmDebugging = false;
-		public bool ForceOnAtStart = false;
 
 		private void Awake()
 		{
