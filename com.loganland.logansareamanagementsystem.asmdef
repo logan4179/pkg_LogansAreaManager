@@ -1,3 +1,14 @@
 {
-	"name": "com.loganland.logansareamanagementsystem"
+    "name": "com.loganland.logansareamanagementsystem",
+    "rootNamespace": "LogansAreaManagementSystem",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
