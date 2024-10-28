@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace LogansAreaManagementSystem
 {
+    //NOTE: Hello from new project!
+
     public static class LAMS_Utilities
     {
 
