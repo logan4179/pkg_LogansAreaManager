@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace LogansAreaManagementSystem
-{
-    //NOTE: Hello from new project!
-
-    public static class LAMS_Utilities
+{    public static class LAMS_Utilities
     {
 
     }
