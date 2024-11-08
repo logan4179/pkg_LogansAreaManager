@@ -1,1 +1,1 @@
-* It's very important that you make the area manager script execution order before the default time so that it establishes it's singleton reference before the other scripts need it.
+* It's advised that you make the LAMS_Manager and LAMS_Area scripts execution order AFTER the default time (make the manager happen before the area script) so that referenced objects controlled by the areas will be able to call any necessary logic in the Starts/Awakes without being preemptively turned off.

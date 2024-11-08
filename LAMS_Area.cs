@@ -105,6 +105,7 @@ namespace LogansAreaManagementSystem
 			{
 				print($"{name}.{nameof(ExitedAction)}");
 			}
+
 			deactivateContainedObjects();
 		}
 
@@ -113,10 +114,8 @@ namespace LogansAreaManagementSystem
 		/// </summary>
 		public void ExitedAdjacentAreaAction()
 		{
-			if (AmDebugging)
-			{
-				print($"{name}.{nameof(ExitedAdjacentAreaAction)}");
-			}
+			print($"{name}.{nameof(ExitedAdjacentAreaAction)}()");
+			
 			deactivateAdjacentlyVisibleObjects();
 			deactivateEntities();
 		}
