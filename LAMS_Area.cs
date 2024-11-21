@@ -22,13 +22,24 @@ namespace LogansAreaManagementSystem
 		[Header("---------------[[ DEBUG ]]-----------------")]
 		public bool AmDebugging = false;
 
-		private void Awake()
+		protected void Awake()
 		{
 			//print($"area start. singleton null: '{LAMS_Manager.Instance == null}'");
 			if( LAMS_Manager.Instance != null && LAMS_Manager.Instance.AutoInitializeAreas )
 			{
 				LAMS_Manager.Instance.RegsiterArea( this );
 				RegisterManager( LAMS_Manager.Instance );
+			}
+		}
+
+		protected void Start()
+		{
+			MeshRenderer mr;
+
+			if( TryGetComponent<MeshRenderer>(out mr) )
+			{
+				print($"got it for: '{name}'");
+				mr.enabled = false;
 			}
 		}
 
